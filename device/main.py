@@ -5,8 +5,8 @@ import time
 import json
 
 # Wifi Data
-WIFI_SSID = 'M1-8790'
-WIFI_PASS = '9070868780'
+WIFI_SSID = 'YOUR WIFI'
+WIFI_PASS = 'YOUR WIFI PASSWORD'
 
 # Connect to wifi
 wlan = WLAN(mode=WLAN.STA)
@@ -17,10 +17,10 @@ print('WLAN connection succeeded!')
 
 # AWS Configuration
 AWS_PORT = 8883
-AWS_HOST = 'a2kous076awbqo-ats.iot.ap-southeast-1.amazonaws.com'
-AWS_ROOT_CA = '/flash/cert/root-CA.crt'
-AWS_CLIENT_CERT = '/flash/cert/mrt-sensor.cert.pem'
-AWS_PRIVATE_KEY = '/flash/cert/mrt-sensor.private.key'
+AWS_HOST = 'PUT YOUR HOST HERE'
+AWS_ROOT_CA = '/flash/cert/YOUR ROOT CA.crt'
+AWS_CLIENT_CERT = '/flash/cert/YOUR CERTIFICATE.pem'
+AWS_PRIVATE_KEY = '/flash/cert/YOUR CERTIFICATE.private.key'
 CLIENT_ID = 'basicPubSub'
 TOPIC = 'sdk/test/Python'
 
