@@ -19,3 +19,6 @@ To create a motion sensor that collects acceleration data and sends it to the cl
 3. Data in DynamoDB can be extracted into output.csv using the [DynamoDBtoCSV](
 https://github.com/edasque/DynamoDBtoCSV) tool.
 4. Data in output.csv can be graphed with graph_data.py script.
+
+### Notes
+* When using pymakr, atom must have administrative rights, otherwise the device will not be able to connect.
