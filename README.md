@@ -21,4 +21,4 @@ https://github.com/edasque/DynamoDBtoCSV) tool.
 4. Data in output.csv can be graphed with graph_data.py script.
 
 ### Notes
-* When using pymakr, atom must have administrative rights, otherwise the device will not be able to connect.
+* When using pymakr, usb port must have administrative rights, otherwise the device will not be able to connect. See [here](https://github.com/GoldenCheetah/GoldenCheetah/wiki/Allowing-your-linux-userid-permission-to-use-your-usb-device).
